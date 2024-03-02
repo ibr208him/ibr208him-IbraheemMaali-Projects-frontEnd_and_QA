@@ -1,0 +1,3 @@
+
+export const APIKEY="493654cbd5d325ba77fcf7fc8ff3fe05";
+export const APITOKEN="ATTA72df115f48d425fc3a18b6fd0e5ecb8940b260bace4317dbc4fb58bc6c04252451038E1A";

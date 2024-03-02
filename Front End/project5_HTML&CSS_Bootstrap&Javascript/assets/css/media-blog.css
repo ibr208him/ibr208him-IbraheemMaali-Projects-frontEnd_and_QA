@@ -1,0 +1,108 @@
+@media (max-width: 1200px) {
+.blog-content{
+    padding-left: 0!important;
+}
+}
+
+@media (max-width: 992px) {
+
+.blog h1 {
+    font-size: 34px;
+}
+
+}
+
+@media (max-width: 767px) {
+
+.blog{
+    text-align: center;
+
+}
+.blog-content{
+
+    margin-bottom:25px;
+}
+.popular-blog .slider-page{
+    flex-direction: column;
+}
+.article-cards .card-lsit{
+    flex-direction: column;
+}
+
+}
+
+@media (max-width: 576px) {
+.blog{
+    margin-top:130px!important;
+}
+.Blog-categories-title{
+    flex-direction: column;
+    text-align: center;
+}
+.Blog-categories-title h2{
+  margin-bottom: 25px;
+}
+.btn{
+    padding-top:5px!important;
+    padding-bottom:5px!important
+
+  }
+  footer .footer-category h3{
+    border-bottom: 1px solid #91929A!important;
+    padding-bottom: 10px!important;
+    position: relative;
+  }
+  footer .footer-category h3::after{
+    content: "";
+    transition: 0.3s;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 3px;
+    width: 20px;
+    border-radius: 10px;
+    background-color: #91929A;
+  
+  }
+  footer .footer-category h3::before{
+    content: "";
+    transition: 0.3s;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 3px;
+    width: 20px;
+    border-radius: 10px;
+    background-color: #91929A;
+    /* transform: translateY(-50%) rotate(270deg); */
+  }
+  footer .footer-category ul{
+    display: none;
+  }
+  footer .footer-category h3.active::before{ 
+    color: red !important;
+     transform: translateY(-50%) rotate(270deg);
+      -webkit-transform: translateY(-50%) rotate(270deg);
+       -moz-transform: translateY(-50%) rotate(270deg);
+        -ms-transform: translateY(-50%) rotate(270deg);
+         -o-transform: translateY(-50%) rotate(270deg);
+  }
+
+  .copyright{
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer .categoty-section::after {
+    display: none!important;
+  }
+
+  .popular-blog .popular-blog-card{
+margin-bottom:30px;
+  }
+  .article-cards .card-item{
+    margin-bottom:25px;
+  }
+}

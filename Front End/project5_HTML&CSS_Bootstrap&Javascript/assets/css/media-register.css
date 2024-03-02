@@ -1,0 +1,41 @@
+@media (max-width: 1250px) {
+    .right-register{
+        padding-left: 50px;
+        padding-right: 50px;
+      }
+
+}
+
+
+@media (max-width: 576px) {
+.navbar-reg-content{
+    flex-direction: column;
+ 
+}
+
+.navbar-reg-content-right{
+    margin-top:30px;
+    flex-direction: column;
+    row-gap: 20px !important;
+    align-items: center;
+   
+}
+.login{
+    width: 100%!important;
+}
+}
+
+@media (max-width: 767px) {
+.register-btn{
+    color: #f56962 !important;
+    background-color: white !important;
+}
+.right-register{
+    padding-top: 50px !important;
+
+}
+.left-register{
+    padding-bottom: 30px !important;
+
+}
+}

@@ -1,0 +1,564 @@
+/* public style*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+.clrfix {
+  clear: both;
+}
+
+/* start header <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+.header {
+  background-image: url("../img/shutterstock.jpg");
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+  overflow: hidden;
+}
+.navbar {
+  height: 15vh;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.logo img {
+  width: 25%;
+}
+.nav {
+  float: right;
+  width: 60%;
+  margin-top: 30px;
+  padding-left: 280px;
+  height: 30px;
+}
+.logo {
+  float: left;
+  width: 40%;
+  padding-right: 120px;
+}
+
+.nav ul li {
+  float: left;
+  width: 80px;
+  font-family: " Alegreya";
+  font-weight: 400;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+.nav .header-list li a {
+  color: #fff;
+  font-size: 20px;
+}
+
+.header-content {
+  margin-top: 150px;
+  color: #fff;
+}
+.header-content p {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.header-content button {
+  padding: 15px 30px;
+  cursor: pointer;
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+.header-content .learn-more {
+  padding: 15px 30px;
+  background-color: rgb(193, 171, 132);
+  color: #fff;
+  cursor: pointer;
+}
+.header-content .learn-more:hover {
+  background-color: #fff;
+  color: black;
+}
+.overlay {
+  background-color: rgb(0, 0, 0, 0.05);
+  height: 100vh;
+}
+
+.header-content p {
+  font-family: "Dancing Script", cursive;
+  font-weight: 400;
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+}
+.header-content h1 {
+  font-family: "Alegreya";
+  font-weight: 400;
+  font-size: 76px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 30px;
+}
+
+/* end header>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/*start of who we are section <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+.who-we-are {
+  height: 700px;
+
+  overflow: hidden;
+  margin: 50px 20px;
+}
+.chef-image {
+  height: 100%;
+  width: 50%;
+  float: left;
+  padding-left: 100px;
+}
+.chef-image img {
+  width: 80%;
+  height: 90%;
+}
+.who-we-are-content {
+  width: 50%;
+  float: right;
+  text-align: left;
+  padding-top: 100px;
+}
+.section-title {
+  margin-bottom: 20px;
+  font-family: "Alegreya", serif;
+  font-size: 36px;
+  font-weight: 400;
+  color: rgb(37, 48, 72);
+}
+.related-to-title {
+  margin-bottom: 20px;
+  color: rgb(193, 171, 132);
+  font-family: "Dancing Script", cursive;
+  font-weight: 400;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+.desc-paragraph {
+  margin-bottom: 20px;
+  font-family: "Alegreya Sans";
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(104, 104, 104);
+  width: 75%;
+}
+.who-we-are-list {
+  overflow: hidden;
+  height: 400px;
+}
+.who-we-are-list-item {
+  height: 50px;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+.who-we-are-content .who-we-are-list .icon-background {
+  border-radius: 50%;
+  width: 8%;
+  height: 50px;
+  background-color: rgb(193, 171, 132);
+  float: left;
+  margin-bottom: 15px;
+}
+.who-we-are-content .who-we-are-list p {
+  float: right;
+  width: 92%;
+  padding-left: 20px;
+  padding-top: 20px;
+  font-family: "Alegreya Sans";
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(104, 104, 104);
+  margin-bottom: 15px;
+}
+
+.icon-who-we-are {
+  padding: 15px 0px 15px 18px;
+  color: white;
+  font-size: 24px;
+}
+/*end of who we are section >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/*start of why to like us section<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+.why-to-like-us {
+  height: 600px;
+  width: 100%;
+  background-color: rgb(248, 248, 248);
+  overflow: hidden;
+  margin: 50px 20px;
+  padding-top: 30px;
+}
+.why-to-like-us-content {
+  height: 100%;
+  width: 60%;
+  float: left;
+  padding-left: 100px;
+}
+
+.who-we-are-list {
+  margin-top: 50px;
+  margin-left: -15px;
+}
+.thump {
+  color: rgb(193, 171, 132);
+  padding-right: 15px;
+}
+.who-we-are-list li {
+  font-family: "Alegreya Sans";
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(104, 104, 104);
+  padding-left: 15px;
+  margin-bottom: 20px;
+}
+.reviewers-image {
+  height: 100%;
+  width: 40%;
+  float: right;
+}
+
+.reviewers-image img {
+  width: 90%;
+  height: 80%;
+  padding-right: 50px;
+}
+
+/*end of why to like us section>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/* start of shutterstock-background <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+.shutterstock-background {
+  background-image: url("../img/shutterstock_background.jpg");
+  background-size: cover;
+  height: 500px;
+  overflow: hidden;
+}
+
+/* end of shutterstock-background <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+/* start of flag-dishes section <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.flag-dishes {
+  height: 1400px;
+  width: 100%;
+  background-color: rgb(248, 248, 248);
+  overflow: hidden;
+  margin-top: 0px;
+  padding-top: 80px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.flag-dishes .title {
+  text-align: center;
+  padding-top: 50px;
+}
+.proud-of-products {
+  margin-top: 30px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+.product-proud-of {
+  width: 33.33%;
+  height: 450px;
+  float: left;
+  margin-bottom: 30px;
+}
+.product-proud-of img {
+  width: 90%;
+  height: 300px;
+  margin-bottom: 15px;
+}
+.product-proud-of .menue-title {
+  font-family: Alegreya;
+  text-align: center;
+  font-size: 21px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.menue-paragraph {
+  font-family: "Alegreya Sans";
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(104, 104, 104);
+  padding-left: 15px;
+  height: 100px;
+  text-align: center;
+  width: 90%;
+}
+
+.menue-button {
+  width: 140px;
+  height: 50px;
+  background-color: rgb(193, 171, 132);
+  padding-top: 10px;
+  margin: auto;
+  text-align: center;
+  border-radius: 6%;
+}
+.menue-button a {
+  font-family: "Alegreya Sans";
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+}
+
+/* end of flag-dishes section <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+/* start of where-are-we section >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+.where-are-we {
+  height: 600px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  margin-top: 50px;
+  overflow: hidden;
+  padding-top: 80px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.where-are-we-content {
+  width: 50%;
+  float: left;
+  background-color: rgb(255, 255, 255);
+}
+.restaurent-map {
+  width: 50%;
+  float: right;
+}
+.where-are-we-list {
+  overflow: hidden;
+  height: 200px;
+}
+where-are-we-list-item {
+  height: 50px;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+.where-are-we-list-item .icon-background {
+  border-radius: 50%;
+  width: 5%;
+  height: 30px;
+  background-color: rgb(193, 171, 132);
+  float: left;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.where-are-we-item {
+  float: right;
+  width: 95%;
+  padding-left: 20px;
+  padding-top: 5px;
+  font-family: "Alegreya Sans";
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(104, 104, 104);
+  margin-bottom: 15px;
+}
+
+.icon-where-are-we {
+  padding: 5px 0px 5px 5px;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+/* end of where-are-we section >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/* start of footer section <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.footer {
+  height: 420px;
+  width: 100%;
+  background-color: rgb(64, 61, 56);
+  overflow: hidden;
+  margin: 50px 20px;
+  padding-right: 130px;
+  padding-left: 130px;
+  margin: 0px;
+}
+.about-us {
+  width: 25%;
+  height: 80%;
+  float: left;
+  margin-top: 15px;
+}
+.footer h4 {
+  font-family: Alegreya;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  margin-bottom: 30px;
+}
+.about-us p {
+  width: 90%;
+  height: 160px;
+  color: rgb(150, 150, 150);
+  font-family: "Alegreya Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 29.76px;
+  margin-top: 20px;
+}
+.useful-links {
+  width: 25%;
+  height: 80%;
+  float: left;
+  padding-left: 15px;
+  margin-top: 15px;
+}
+.Useful-Links-list li {
+  height: 30px;
+  border-bottom: 0.8px solid rgba(255, 255, 255, 0.05);
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  padding-right: 25px;
+}
+.Useful-Links-list li a {
+  color: rgb(169, 169, 169);
+  font-family: "Alegreya Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 10.48px;
+  display: inline;
+}
+.icon-useful-links {
+  font-size: 12px;
+  color: rgb(150, 150, 150);
+  margin-right: 5px;
+}
+.icon-opening-hours {
+  font-size: 12px;
+  color: rgb(150, 150, 150);
+  margin-right: 5px;
+}
+.opening-hours {
+  width: 25%;
+  height: 80%;
+  float: left;
+  padding-left: 15px;
+  margin-top: 15px;
+}
+.opening-hours-list li {
+  height: 30px;
+  border-bottom: 0.8px solid rgba(255, 255, 255, 0.05);
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  padding-right: 25px;
+  color: rgb(169, 169, 169);
+  font-family: "Alegreya Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 33.48px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  padding-right: 25px;
+}
+.contact-details {
+  width: 25%;
+  height: 80%;
+  float: left;
+  padding-left: 15px;
+  margin-top: 15px;
+}
+.icon-contact-details {
+  font-size: 18px;
+  color: rgb(150, 150, 150);
+  margin-right: 5px;
+  display: inline;
+}
+/*body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }*/
+.Contact-Details-list li {
+  width: 100%;
+  border-bottom: 0.8px solid rgba(255, 255, 255, 0.05);
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.Contact-Details-list .big {
+  height: 80px;
+}
+.Contact-Details-list .normal {
+  height: 45px;
+}
+
+.Contact-Details-list li p,
+a {
+  color: rgb(169, 169, 169);
+  font-family: "Alegreya Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 33.48px;
+  width: 90%;
+  height: 100%;
+  margin-bottom: 20px;
+  margin-left: 5px;
+  display: inline;
+}
+
+/* end of footer section >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/* start of final section <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.final-section {
+  background-color: rgb(53, 51, 48);
+}
+
+.final-section-content {
+  height: 400px;
+  width: 30%;
+  margin: auto;
+  background-color: rgb(53, 51, 48);
+}
+.final-section-content p {
+  margin-top: 20px;
+  padding-left: 80px;
+  color: rgb(119, 119, 119);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 33.48px;
+  font-family: "Alegreya Sans";
+}
+.social-media {
+  margin-top: 20px;
+  margin-left: 70px;
+}
+.social-media-container {
+  border-radius: 100%;
+  height: 60px;
+  background-color: #484540;
+  width: 60px;
+  float: left;
+  margin-right: 10px;
+  padding-top: 15px;
+}
+.social-media-icon {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.social-media-container a {
+  padding-left: 15px;
+  padding-top: -10px;
+}
+.scrollup {
+  width: 40px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  bottom: 0;
+  right: 10px;
+  border-radius: 50%;
+  border-style: 1.6px solid rgba(255, 255, 255, 0.05);
+}
+.scrollup-icon {
+  color: #fff;
+  font-size: 30px;
+  padding-top: 5px;
+}
+/* end of final section >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/

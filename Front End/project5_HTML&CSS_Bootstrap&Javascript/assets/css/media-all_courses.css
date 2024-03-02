@@ -1,0 +1,118 @@
+
+@media (max-width: 1200px) {
+.container {
+    max-width: 100% !important ;
+    overflow: hidden !important;
+  }
+}
+
+@media (max-width: 767px) {
+.course-details{
+    background-color: #fef0ef;
+    padding-top:20px!important;
+    padding-bottom: 20px!important;
+}
+
+.course-details .section-content .course-details-btn a {
+  width:100%!important;
+}
+.get-choice-title{
+  flex-direction: column;
+  row-gap: 40px;
+  align-items: center;
+  
+}
+
+.get-choice .get-choice-title h2 {
+  text-align:center!important;
+ 
+}
+
+
+.teacher-cards-title a {
+  width:100%!important;
+}
+.teacher-cards-title{
+  flex-direction: column;
+  row-gap: 40px;
+  align-items: center;
+}
+.teacher-cards-title h2 {
+  text-align:center!important;
+ 
+}
+
+}
+
+
+@media (max-width: 576px) {
+  .card-bottom{
+  flex-direction: column;
+  row-gap: 20px;
+  }
+  
+  h1{
+    font-size: 30px!important;
+  }
+  h2{
+    font-size: 30px!important;
+  }
+  h3{
+    font-size: 20px!important;
+  }
+  p{
+    font-size: 15px!important;
+  }
+  
+  footer .footer-category h3{
+    border-bottom: 1px solid #91929A!important;
+    padding-bottom: 10px!important;
+    position: relative;
+  }
+  footer .footer-category h3::after{
+    content: "";
+    transition: 0.3s;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 3px;
+    width: 20px;
+    border-radius: 10px;
+    background-color: #91929A;
+  
+  }
+  footer .footer-category h3::before{
+    content: "";
+    transition: 0.3s;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 3px;
+    width: 20px;
+    border-radius: 10px;
+    background-color: #91929A;
+    /* transform: translateY(-50%) rotate(270deg); */
+  }
+  footer .footer-category ul{
+    display: none;
+  }
+  footer .footer-category h3.active::before{ 
+    color: red !important;
+     transform: translateY(-50%) rotate(270deg);
+      -webkit-transform: translateY(-50%) rotate(270deg);
+       -moz-transform: translateY(-50%) rotate(270deg);
+        -ms-transform: translateY(-50%) rotate(270deg);
+         -o-transform: translateY(-50%) rotate(270deg);
+  }
+
+  .copyright{
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer .categoty-section::after {
+    display: none!important;
+  }
+  }

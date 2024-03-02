@@ -1,0 +1,230 @@
+@media screen and (max-width: 568px) {
+  .logo,
+  .nav {
+    float: none;
+  }
+  .logo,
+  .nav,
+  .navbar {
+    height: 30px;
+    width: 100%;
+  }
+  .header {
+    margin-bottom: 0;
+  }
+  .header-content {
+    margin-top: 200px;
+    color: #fff;
+  }
+  .navbar {
+    position: fixed;
+    top: 0;
+  }
+  .nav {
+    margin-top: 10px;
+    padding-left: 0;
+  }
+  .logo {
+    padding-right: 0;
+  }
+  .chef-image,
+  .who-we-are-content {
+    padding-right: 10px;
+    padding-left: 10px;
+    float: none;
+  }
+  .header-content h1 {
+    font-size: 40px;
+  }
+  .header-content p,
+  .section-title {
+    font-size: 25px;
+  }
+  .header-content img {
+    width: 85%;
+  }
+  .header-content button {
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: 700;
+  }
+  .header-content .learn-more {
+    padding: 5px 12px;
+  }
+  .logo img {
+    width: 0%;
+  }
+  .who-we-are {
+    height: 1000px;
+    overflow: none;
+  }
+  .chef-image {
+    height: 400px;
+    width: 100%;
+  }
+  .chef-image img {
+    width: 100%;
+    height: 100%;
+  }
+  .who-we-are-content {
+    height: 800px;
+    width: 100%;
+    padding-top: 0;
+    margin-top: 30px;
+  }
+  .section-title {
+    margin-bottom: 5px;
+  }
+  .desc-paragraph,
+  .related-to-title {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  .desc-paragraph {
+    width: 100%;
+    text-align: left;
+    margin-left: 0;
+    padding-right: 20px;
+  }
+  .who-we-are-list {
+    width: 100%;
+    height: 300px;
+    margin-left: 5px;
+  }
+  .who-we-are-list-item {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 5px;
+  }
+  .who-we-are-content .who-we-are-list .icon-background {
+    width: 10%;
+    height: 25px;
+  }
+  .who-we-are-content .who-we-are-list p {
+    width: 90%;
+  }
+  .icon-who-we-are {
+    padding: 5px 0 0 7px;
+    font-size: 15px;
+    text-align: center;
+  }
+  .why-to-like-us {
+    height: 800px;
+    padding-top: 20px;
+    margin: 20px 10px;
+  }
+  .why-to-like-us-content {
+    height: 60%;
+    width: 100%;
+    padding-left: 0;
+  }
+  .who-we-are-list li {
+    font-size: 15px;
+  }
+  .reviewers-image {
+    height: 40%;
+    width: 100%;
+  }
+  .reviewers-image img {
+    padding-right: 0;
+  }
+  .flag-dishes {
+    height: 2800px;
+    padding-top: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .flag-dishes .title {
+    padding-top: 15px;
+  }
+  .proud-of-products {
+    margin-bottom: 10px;
+  }
+  .product-proud-of {
+    width: 100%;
+    height: 400px;
+  }
+  .final-section,
+  .final-section img,
+  .final-section-content,
+  .product-proud-of img {
+    width: 100%;
+  }
+  .menue-paragraph {
+    font-size: 16px;
+  }
+  .menue-button {
+    width: 110px;
+    height: 30px;
+    margin-top: 20px;
+    padding-top: 0;
+  }
+  .menue-button a {
+    font-size: 14px;
+  }
+  .where-are-we {
+    height: 1000px;
+    margin-top: 0;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 10px;
+  }
+  .where-are-we-content {
+    width: 100%;
+    float: none;
+  }
+  .restaurent-map {
+    width: 85%;
+    float: none;
+    margin-left: 25px;
+  }
+  .icon-where-are-we {
+    padding: 3px 0 3px 3px;
+    font-size: 12px;
+  }
+  .footer {
+    height: 1300px;
+    padding-right: 0;
+    padding-left: 15px;
+  }
+  .contact-details,
+  .opening-hours,
+  .useful-links {
+    width: 100%;
+    float: none;
+    padding-left: 0;
+  }
+  .about-us {
+    width: 100%;
+    height: 300px;
+    float: none;
+  }
+  .about-us p {
+    height: 130px;
+    margin-top: 5px;
+  }
+  .useful-links {
+    height: 240px;
+    margin-top: 0;
+  }
+  .opening-hours {
+    height: 350px;
+  }
+  .contact-details {
+    height: 300px;
+  }
+  .Contact-Details-list .big {
+    height: 50px;
+  }
+  .Contact-Details-list .normal {
+    height: 25px;
+  }
+  .social-media {
+    margin-left: 40px;
+  }
+  .social-media-icon {
+    font-size: 24px;
+    font-weight: 400;
+  }
+}

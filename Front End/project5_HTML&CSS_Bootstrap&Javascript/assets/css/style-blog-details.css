@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*font-family: 'Poppins', sans-serif;*/
+
+.body{
+  margin:0;
+  padding:0;
+}
+:root {
+  --main-color: #fef0ef;
+  --main-color-2:#F56962;
+  --main-font-family:'Poppins', sans-serif;
+}
+.bg-main-color2{
+  background-color: var(--main-color-2) !important;
+}
+@media (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1140px;
+  }
+}
+a{
+  text-decoration: none;
+}
+.btn{
+    background-color: var(--main-color-2);
+    color:white;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--main-font-family);
+    padding-top:10px;
+    text-decoration-style: solid;
+    -moz-text-decoration-style: solid;
+
+  }
+.btn:hover{
+  box-shadow: 0 7px 15px 1px #e65750;
+  color:white;
+  background-color:var(--main-color-2) ;
+}
+ul{
+  list-style: none;
+}
+
+/* start navbar......................................................................................*/
+  .navbar {
+    display: flex;
+    align-items: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    justify-content: space-around;
+    
+  }
+  nav{
+    background-color: var(--main-color) ;
+    width:100%;
+  
+  }
+  .nav-link:hover{
+    font-weight: 700;
+  }
+  .nav-item.dropdown:hover .dropdown-menu{
+display:block;
+  }
+
+  nav .brand-icon{
+    background-color:var(--main-color-2);
+    color:white;
+    font-size: 16px;
+  }
+  nav .fa-cart-shopping{
+    color:black !important;
+    background-color: var(--main-color);
+  }
+  nav .register{
+    color:white;
+    background-color:var(--main-color-2) ;
+    text-align: center ;
+  }
+
+  .logo-title{
+    font-size:28px;
+    font-weight: 500;
+    color:rgb(33, 37, 41);
+    font-family:var(--main-font-family);
+  
+  }
+/* end navbar......................................................................................*/
+
+
+
+/* start blog-details-header......................................................................................*/
+
+.blog-details-header{
+    background-color: var(--main-color);
+}
+.blog-details-header p{
+    font-size: 20px;
+    color: #5F5982;
+    font-weight: 400;
+    font-family: var(--main-font-family);
+    }
+.blog-details-header p:first-of-type,.blog-details-header span{
+font-size: 1rem;
+font-weight: 400;
+color: #5F5982 !important;
+font-family: var(--main-font-family);
+}
+.blog-details-header span{
+    color:orange !important;
+}
+.blog-details-header h2{
+color: #302D3A;
+font-size: 40px;
+font-weight: 500;
+font-family: var(--main-font-family);
+}
+
+
+
+/* end blog-details-header......................................................................................*/
+
+
+/* start blog-details-main......................................................................................*/
+
+.blog-details-main{
+    background-color: white;
+}
+
+.blog-details-main .sec-text{
+font-size: 16px;
+color: #5F5982;
+font-weight: 400;
+font-family: var(--main-font-family);
+}
+
+.social-btn{
+    padding-left: 15px;
+    padding-right: 15px;
+    min-width: 150px;
+    text-align: left;
+    border-radius: 4px;
+    padding: 12px 25px;
+    font-size: 16px;
+    color: #fff!important;
+    font-family: var(--main-font-family);
+    
+}
+
+.facebook-bkg{
+    background-color: #4761A6;
+}
+.twitter-bkg{
+    background-color: #56B4F5
+}
+
+.linkedin-bkg{
+    background-color: #3C82C0;
+}
+
+.reddit-bkg{
+    background-color: #F54504;
+}
+
+
+.whatssap-bkg{
+    background-color: #54CC61;;
+}
+
+.youtube-bkg{
+    background-color: #D51000;
+}
+
+.btn2{
+    padding-left: 15px;
+    padding-right: 15px;
+    min-width: 150px;
+    text-align: left;
+    border-radius: 4px;
+    padding: 12px 25px;
+    font-size: 16px;
+    background: #EFEFF6;
+    color: #5F5982;
+    font-family: var(--main-font-family);
+    
+}
+
+.blog-author-details span{
+    font-size: 16px;
+    font-family: var(--main-font-family);
+    font-weight: 400;
+    color: #212529;
+}
+
+.blog-author-details i{
+    font-size: 22px;
+}
+.author-info p{
+    font-size: 14px;
+    color: #5F5982 !important;
+    font-family: var(--main-font-family);
+}
+.author-info h3{
+font-size: 20px;
+font-weight: 500;
+color: #302D3A !important;
+font-family: var(--main-font-family);
+
+}
+
+
+.btn-special{
+    border-radius: 4px;
+    padding: 12px 25px;
+    font-size: 16px;
+    transition: 0.2s;
+    color: #F56962;
+    border-color: #F56962!important;
+    background-color: transparent;
+    border: 1px solid;
+}
+
+/* .btn-special:focus{
+background-color: var(--main-color-2)!important;
+color: white;
+} */
+/* end blog-details-main......................................................................................*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* start footer..........................................................................*/
+footer{
+    background-color: #33333D ;
+  }
+  footer .footer-category h3{
+    font-weight: 500;
+    font-size: 22px;
+    color: #fff!important;
+    font-family: var(--main-font-family);
+  
+    padding-bottom: 32px;;
+  }
+  
+  footer .footer-category .category-links a{
+    color: #91929A;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--main-font-family);
+  }
+  footer .footer-category .category-links a:hover{
+    color:white;
+  }
+  
+  footer .copyright .copy-right-txt p{
+    color: #91929A;
+    font-size: 16px;
+    font-family: var(--main-font-family);
+  }
+  
+  footer .copyright .social-media a{
+    color: #777;
+    font-size: 22px;
+    padding-right:20px;
+  }
+  footer .copyright .social-media a:hover{
+    color:white;
+  }
+  
+  footer .categoty-section{
+    position: relative;
+  
+  }
+  footer .categoty-section::after{
+    content: "";
+    position: absolute;
+    left:0%;
+    top: 100%;
+    z-index: 1;
+    border-bottom: 1px solid #91929A;;
+    height: 2%;
+    width: 99%; 
+  }
+  
+  /* end footer..........................................................................*/
+  .owl-nav{
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  .owl-prev,.owl-next{
+  background-color: white!important;
+  color: rgb(125, 121, 121)!important;
+  font-size:40px !important;
+  border:1px solid white !important;
+  width:50px !important;
+  vertical-align:top!important;
+  }

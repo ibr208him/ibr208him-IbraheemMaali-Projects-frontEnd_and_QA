@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*font-family: 'Poppins', sans-serif;*/
+
+.body{
+  margin:0;
+  padding:0;
+}
+:root {
+  --main-color: #fef0ef;
+  --main-color-2:#F56962;
+  --main-font-family:'Poppins', sans-serif;
+}
+@media (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1140px;
+  }
+}
+a{
+  text-decoration: none;
+}
+.btn:hover{
+  box-shadow: 0 7px 15px 1px #e65750;
+  color:white;
+  background-color:var(--main-color-2) ;
+}
+.btn{
+  background-color: var(--main-color-2);
+  color:white;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--main-font-family);
+  padding-top:10px;
+  text-decoration-style: solid;
+  -moz-text-decoration-style: solid;
+  width: 100%;
+}
+
+ul{
+  list-style: none;
+}
+
+/* start navbar......................................................................................*/
+  .navbar {
+    display: flex;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    
+   
+    
+  }
+  nav{
+    background-color: #fff ;
+    width:100%;
+    background-color: transparent!important;
+  
+  }
+  .nav-link:hover{
+    font-weight: 700;
+  }
+  .nav-item.dropdown:hover .dropdown-menu{
+display:block;
+  }
+
+  nav .brand-icon{
+    background-color:var(--main-color-2);
+    color:white;
+    font-size: 16px;
+  }
+  nav .fa-cart-shopping{
+    color:black !important;
+    background-color: var(--main-color);
+  }
+  nav .register{
+    color:white;
+    background-color:var(--main-color-2) ;
+    text-align: center ;
+  }
+
+  .logo-title{
+    font-size:28px;
+    font-weight: 500;
+    color:rgb(33, 37, 41);
+    font-family:var(--main-font-family);
+  
+  }
+
+
+/* end navbar......................................................................................*/
+
+/* start register-content..........................................................................*/
+.left-register,.right-register{
+  padding-top: 200px ;
+  padding-bottom: 100px ;
+}
+.left-register{
+  background-color: #FD9697;
+  min-height: 100vh !important;
+}
+.left-register h2{
+  font-size: 50px;
+  font-weight: 600;
+  font-family: var(--main-font-family);
+  color: #fff!important;
+}  
+.left-register p{      
+font-size: 22px;
+font-weight: 400;
+font-family: var(--main-font-family);
+color: #fff!important;
+}   
+.right-register h2{
+color: #302D3A;
+font-size: 40px;
+font-weight: 500;
+font-family: var(--main-font-family);
+}
+.right-register .top-par{
+font-size: 20px;
+color: #5F5982;
+font-weight: 400;
+font-family: var(--main-font-family);
+}
+.form-item label{
+font-size: 18px;
+color: #302D3A !important;
+font-weight: 400;
+font-family: var(--main-font-family);
+}
+
+.right-register{
+  padding-left: 180px;
+  padding-right: 180px;
+}
+.form-item input{
+  height:60px;
+}
+.form-item{
+  margin-bottom: 20px;
+}
+
+.forget-password{
+  border:none;
+  background-color: transparent;
+  font-size: 18px;
+  color: #6C63FF;
+}
+
+.eye-icon{
+  color: #898585;
+  font-size: 20px;
+  position: absolute;
+  top: 30%;
+  right: 15px;
+  cursor: pointer;
+}
+.start-now{
+  height: 50px !important;
+}
+.or-line{
+  height: 1px;
+  width: 100%;
+  opacity: 0.5;
+  background-color: #33333D !important;
+
+}
+.or-word{
+font-size: 24px;
+color: #5F5982 !important;
+font-weight: 400;
+font-family: var(--main-font-family);
+
+}
+.start-now2{
+    background-color: white;
+    border: 1px solid #6c757d !important;
+    border-radius:5px ;
+    -webkit-border-radius:5px ;
+    -moz-border-radius:5px ;
+    -ms-border-radius:5px ;
+    -o-border-radius:5px ;
+}
+.text{
+  font-size: 1rem !important;
+  color: #6c757d;
+}
+.par-bottom{
+font-size: 16px;
+color: #5F5982;
+font-weight: 400;
+font-family: var(--main-font-family);
+}
+.sign-in-orange{
+  color: #F68C20;
+}
+/* end register-content..........................................................................*/
+   

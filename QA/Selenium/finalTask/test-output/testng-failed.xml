@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="support.ExtentReportClass"/>
+  </listeners>
+  <test thread-count="5" name="firefoxTest(failed)">
+    <parameter name="myBrowser" value="firefox"/>
+    <classes>
+      <class name="smokeTests.taskScenario">
+        <methods>
+          <include name="myBefore"/>
+          <include name="placeOrderFunctionality" invocation-numbers="0"/>
+          <include name="myAfter"/>
+        </methods>
+      </class> <!-- smokeTests.taskScenario -->
+    </classes>
+  </test> <!-- firefoxTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
