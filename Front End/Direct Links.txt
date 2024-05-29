@@ -7,6 +7,8 @@
 2- HTML&CSS : Restaurent
 
      Link:  https://luxury-gecko-4c3084.netlify.app/
+     Link:  https://6656e6754453d9751048fc5d--imaginative-centaur-a04aea.netlify.app/
+
 
 3- HTML&CSS_Bootstrap : 
 
