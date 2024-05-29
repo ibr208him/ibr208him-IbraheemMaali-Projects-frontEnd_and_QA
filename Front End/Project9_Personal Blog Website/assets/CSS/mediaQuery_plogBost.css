@@ -1,0 +1,161 @@
+/* start of styling for viewport with (max-width: 992px).....................................................................*/
+
+@media (max-width: 992px) {
+
+  .spotlight-post-page-header .header-content {
+    flex-direction: column !important;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .related-posts-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .spotlight-post-page-header .header-content {
+    display: grid;
+    grid-template-rows: 300px 400px 150px !important;
+    row-gap: 20px !important;
+  }
+
+  .header-side-content {
+    grid-column: 1/13 !important;
+    grid-row: 1/2 !important;
+  }
+
+  .spotlight-post-page-header .header-image {
+    grid-column: 1/13 !important;
+    grid-row: 2/3 !important;
+    height: 100%;
+  }
+
+  .header-footer {
+    grid-column: 1/13 !important;
+    grid-row: 3/4 !important;
+    padding-inline: 10px !important;
+  }
+
+  .subscribe-form{
+    display: flex;
+    flex-direction: column;
+  }
+.form-section input,
+.form-section label{
+  display: block !important;
+}
+
+
+
+}
+
+/* end of styling for viewport with (max-width: 992px).....................................................................*/
+/* start of styling for viewport with (max-width: 768px).....................................................................*/
+
+@media (max-width: 768px) {
+  
+  .related-posts-content {
+    grid-template-columns: 1fr !important;
+    row-gap: 10px;
+    align-items: center !important;
+    text-align: center;
+  }
+
+  .related-posts .title {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 15px;
+  }
+
+  .related-posts .title .button {
+    width: fit-content;
+  }
+
+  .spotlight-post-page-header .header-title {
+    font-size: 1.5rem !important;
+  }
+
+  .spotlight-post-page-header {
+
+    padding-top: 160px !important;
+  }
+
+  .author-avatar {
+
+    height: 40% !important;
+  }
+
+  .form-section input {
+    width: 100%;
+  }
+
+  .form-section input::placeholder {
+    font-size: 1rem !important;
+  }
+
+  .attractive-statement {
+    padding: 5px !important;
+  }
+
+  .subscribe-content {
+    padding: 20px !important;
+  }
+
+  .attractive-statement p {
+    font-style: normal !important;
+    font-size: 1.1rem !important;
+  }
+}
+
+/* end of styling for viewport with (max-width: 768px).....................................................................*/
+/* start of styling for viewport with (max-width: 576px).....................................................................*/
+
+@media (max-width: 576px) {
+
+  .author-profile {
+    flex-direction: column;
+    row-gap: 15px;
+    align-items: first baseline !important;
+  }
+
+  .author-avatar {
+    border: none !important;
+  }
+
+  .author-avatar img {
+    border-radius: none !important;
+    -webkit-border-radius: none !important;
+    -moz-border-radius: none !important;
+    -ms-border-radius: none !important;
+    -o-border-radius: none !important;
+  }
+
+  .subtitle-image {
+    width: 70vw !important;
+    height: 50vh !important;
+  }
+
+
+  .form-section input::placeholder {
+    font-size: 0.7rem !important;
+  }
+
+  .spotlight-post-page-header .header-content {
+    display: grid;
+    grid-template-rows: 500px 250px 150px !important;
+  }
+
+  .subscribe-form{
+    align-items: center;
+    padding-inline: 15px !important;
+  }
+
+  .form-section{
+    display: flex;
+    flex-direction: column;
+    column-gap: 15px;
+  }
+
+}
+
+/* end of styling for viewport with (max-width: 576px).....................................................................*/

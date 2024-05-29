@@ -1,0 +1,189 @@
+/* start of styling for viewport with (min-width: 1400px).....................................................................*/
+
+@media (min-width: 1400px) {
+
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1140px;
+  }
+
+}
+
+/* end of styling for viewport with (min-width: 1400px).....................................................................*/
+
+@media (min-width: 993px) and (max-width: 1200px) {
+
+  .card-footer {
+    flex-direction: column;
+    row-gap: 10px;
+  }
+  .read-more-link,
+  .read-more-button {
+    width: 100% !important;
+    font-size: 1.1rem !important;
+  }
+}
+
+/* start of styling for viewport with (max-width: 992px).....................................................................*/
+
+@media (max-width: 992px) {
+
+  .main-page-header .header-content {
+    grid-column: 1/13 !important;
+    grid-row: 1/2;
+  }
+
+  .main-page-header .header-image {
+    grid-column: 1/13 !important;
+    grid-row: 2/3;
+  }
+
+  .main-page-header .header-title {
+    font-size: 1.2rem !important;
+  }
+
+  .main-page-header .welcome-word {
+    font-size: 1.6rem;
+  }
+
+  .header-side-content {
+    padding-inline: 15px !important;
+  }
+
+  .all-posts .cards {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    grid-template-rows: repeat(3, 1fr) !important;
+  }
+
+  .footer-content {
+    flex-direction: column !important;
+    row-gap: 15px;
+  }
+
+  .spotlight-post-content {
+    grid-column: 1/13 !important;
+  }
+
+  .spotlight-post-image {
+    grid-column: 1/13 !important;
+  }
+
+  .typical-footer .copyright-par {
+    font-size: 0.9rem !important;
+  }
+
+}
+
+/* end of styling for viewport with (max-width: 992px).....................................................................*/
+/* start of styling for viewport with (max-width: 768px).....................................................................*/
+
+@media (max-width: 768px) {
+  
+  .main-page-header {
+    background-size: contain !important;
+  }
+
+  nav {
+    flex-direction: column !important;
+    row-gap: 2rem !important;
+    text-align: center;
+  }
+
+  .all-posts .cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr) !important;
+    grid-template-rows: repeat(6, 1fr) !important;
+  }
+
+  .all-posts .card-footer {
+    justify-content: space-around !important;
+  }
+  .all-posts .card{
+    padding-bottom: 0 !important;
+  }
+  .read-more-link,
+  .read-more-button {
+    padding-inline:20px !important;
+    font-size: 1.1rem;
+  }
+}
+
+/* end of styling for viewport with (max-width: 768px).....................................................................*/
+/* start of styling for viewport with (max-width: 576px).....................................................................*/
+
+@media (max-width: 576px) {
+
+  .main-page-header,
+  .nav-link {
+    font-size: 1.2rem !important;
+  }
+
+  .main-page-header .welcome-word,
+  .logo-text {
+    font-size: 1.3rem !important;
+  }
+
+  .welcome-word {
+    font-size: 3rem !important;
+  }
+
+  .section-title {
+    font-size: 1.3rem !important;
+    text-align: left !important;
+  }
+
+  .typical-footer .copyright-par {
+    font-size: 0.8rem !important;
+  }
+
+  .typical-footer .social-media-icon i {
+    font-size: 1.3rem !important;
+  }
+
+  .spotlight-post-image-caption {
+    font-size: 0.8rem !important;
+  }
+
+  .card-footer {
+    flex-direction: column;
+    row-gap: 10px;
+
+  }
+
+  .reviews-shares {
+    width: 100%;
+    padding: 0;
+  
+    justify-content: space-evenly !important;
+  }
+
+  .cards {
+    padding: 10px 10px 40px !important;
+  }
+
+  .spotlight-post-image {
+    padding: 15px !important;
+  }
+
+  .related-posts-content {
+    padding: 10px !important;
+  }
+
+  .all-posts .carousel-indicators {
+    bottom: 3px !important;
+  }
+
+  .read-more-link,
+  .read-more-button {
+    width: 100%;
+    font-size: 1.1rem;
+  }
+
+}
+
+/* end of styling for viewport with (max-width: 576px).....................................................................*/
