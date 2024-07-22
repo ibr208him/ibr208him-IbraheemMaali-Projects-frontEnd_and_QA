@@ -4,10 +4,10 @@
      Link:  https://64767aea7120ef26e19688a0--benevolent-cascaron-6a04e6.netlify.app/
 
 
-2- HTML&CSS : Restaurent
+2- HTML&CSS : 
 
-     Link:  https://luxury-gecko-4c3084.netlify.app/
-     Link:  https://6656e6754453d9751048fc5d--imaginative-centaur-a04aea.netlify.app/
+     Project 1-Restauren: https://luxury-gecko-4c3084.netlify.app/
+     Project 2-Personal Blog: https://6656e6754453d9751048fc5d--imaginative-centaur-a04aea.netlify.app/
 
 
 3- HTML&CSS_Bootstrap : 
