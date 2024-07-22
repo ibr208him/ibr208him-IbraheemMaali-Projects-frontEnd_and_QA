@@ -18,6 +18,7 @@ const     initialValues={
   image:'',
 };
 
+const base_url=import.meta.env.VITE_API_URL;
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 export default function Register() {
   const navigate=useNavigate(); // should be inside the component function and not insdie any subfunctions
@@ -32,7 +33,7 @@ export default function Register() {
     formData.append('password', user.password);
     formData.append('image', user.image);
     console.log(formData);
-    const {data}=await axios.post("https://ecommerce-node4.vercel.app/auth/signup",formData);
+    const {data}=await axios.post(base_url,formData);
     console.log(data);
     if(data.message=='success'){
       toast.success('you are successfuly regestered,please confirm your email', {
