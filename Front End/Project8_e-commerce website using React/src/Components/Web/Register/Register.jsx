@@ -33,7 +33,7 @@ export default function Register() {
     formData.append('password', user.password);
     formData.append('image', user.image);
     console.log(formData);
-    const {data}=await axios.post("https://ecommerce-node4-five.vercel.app",formData);
+    const {data}=await axios.post(`${import.meta.env.VITE_API_URL}/auth/signup`,formData);
     console.log(data);
     if(data.message=='success'){
       toast.success('you are successfuly regestered,please confirm your email', {
